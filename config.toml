@@ -1,0 +1,255 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "My New Hugo Site"
+theme = "devresume"
+
+
+[params]
+    author = "CowboySmall"
+    description = "DevResume - Bootstrap 4 Resume/CV Template For Software Developers"
+
+
+    primaryColor = "#54B689"
+    textPrimaryColor = "#292929"
+
+
+
+
+    [params.profile]
+        enable = true
+        name = "Airton F S Oliveira"
+        tagline = "Senior Software Engineer"
+        avatar = "avatar.png"
+
+
+
+
+
+
+
+    [params.contact]
+        enable = true
+        location = "Torres RS"
+
+        [[params.contact.list]]
+        icon = "fas fa-phone-square"
+        url = "tel:#"
+        text = "+55 51 99245 8600"
+        [[params.contact.list]]
+        icon = "fas fa-envelope-square"
+        url = "mailto:#"
+        text = "airton83@icloud.com"
+        [[params.contact.list]]
+        icon = "fas fa-globe"
+        url = "#"
+        text = "airtonoliveira.dev"
+
+
+
+
+
+
+
+    [params.skills]
+        enable = true
+
+        [[params.skills.list]]
+        title = "Technical"
+        [[params.skills.list.items]]
+        details = "JavaScript/Typescript/React"
+        [[params.skills.list.items]]
+        details = "GO/PHP"
+        [[params.skills.list.items]]
+        details = "Node.js"
+        [[params.skills.list.items]]
+        details = "PostgreSQL/MySQL"
+        [[params.skills.list.items]]
+        details = "Object-oriented/Composite/Functional"
+        [[params.skills.list.items]]
+        details = "Design and implement microservices archs"
+        
+
+        [[params.skills.list]]
+        title = "Professional"
+        [[params.skills.list.items]]
+        details = "Team player"
+        [[params.skills.list.items]]
+        details = "Strong problem solver"
+        [[params.skills.list.items]]
+        details = "Good time management"
+
+
+
+
+
+
+
+
+    [params.education]
+        enable = true
+
+        [[params.education.list]]
+        degree = "BSc in Computer Science"
+        university = "Pontifícia Universidade Católica do Rio Grande do Sul - PUCRS"
+        dates = "2003 - 2011"
+
+
+
+
+
+
+
+
+    [params.awards]
+        enable = true
+
+        [[params.awards.list]]
+        name = "AWS Certified Solutions Architect – Associate"
+        body = "Earners of this certification have a comprehensive understanding of AWS services and technologies. They demonstrated the ability to build secure and robust solutions using architectural design principles based on customer requirements. Badge owners are able to strategically design well-architected distributed systems that are scalable, resilient, efficient, and fault-tolerant."
+        date = "2020"
+        
+
+
+
+
+
+
+
+
+    [params.languages]
+        enable = true
+
+        [[params.languages.list]]
+        name = "English"
+        level = "Advanced"
+        [[params.languages.list]]
+        name = "Brazilian Portuguese"
+        level = "Native"
+
+
+
+
+
+
+
+
+    [params.interests]
+        enable = true
+
+        [[params.interests.list]]
+        name = "GO"
+        [[params.interests.list]]
+        name = "microservices"
+        [[params.interests.list]]
+        name = "Queues"
+        [[params.interests.list]]
+        name = "Async services"
+
+
+
+
+
+
+
+
+    [params.summary]
+        enable = true
+        text = "I have a Bachelor's degree in Computer Science and always looked for efficient software models and quality in the code I write.          I enjoyed work with Object-Oriented in traditional inheritance, nowadays I'm evolving to the Composite Pattern and functional programming using GO and Typescript. Currently, I'm focusing on microservices and serverless technologies using event-driven, queues, async services, infrastructure as code, and patterns to develop, test, deploy, and collect metrics for solutions made with these. Looking for continuous improvement, enthusiast of agile, clean code, test-driven development, design patterns, and high-performance systems. Database data modeler designer (SQL, NoSQL) with 14+ years of experience in high-quality data design and performance. AWS Certified Solutions Architect – Associate"
+
+
+
+
+
+
+
+
+    [params.experience]
+        enable = true
+
+        [[params.experience.list]]
+        title = "Senior Software Development Engineer"
+        dates = "2019 - Present (1 year 2 months)"
+        company = "OPLEN"
+        details = "To promote scalability, cost reduction, and freedom to develop in other technologies, I built a hybrid solution for the Backend, letting the main monolithic PHP core working in conjunction with new microservices behind an API Gateway. These new microservices are responsible for new functionalities and also some that needed refactory, these developed in GO in a cluster with containers running in docker swarm."
+        [[params.experience.list.items]]
+        details = "Hybrid monolithic and microservices"
+        [[params.experience.list.items]]
+        details = "Docker Swarm"
+        [[params.experience.list.items]]
+        details = "GO"
+
+        [[params.experience.list]]
+        title = "Software Development Engineer"
+        dates = "July 2018 - April 2019 (10 months)"
+        company = "OPLEN"
+        details = "I worked on the development of a data load solution to import data from file using React.js. This solution using API calls, the client-side can identify and update outdated information, synchronizing the Backend database."
+        [[params.experience.list.items]]
+        details = "React.js, web workers, ECMAScript ES2017"
+        [[params.experience.list.items]]
+        details = "GO"
+
+        [[params.experience.list]]
+        title = "Full Stack Engineer"
+        dates = "January 2017 - June 2018 (1 year 6 months) "
+        company = "OPLEN"
+        details = "I worked on developing an administrative web view using React.js, offering complex queries and reports. It was necessary to develop several SQL queries and make web services available for downloading CSV files"
+        [[params.experience.list.items]]
+        details = "React.js, MySQL, PHP"
+        
+
+        [[params.experience.list]]
+        title = "PHP Software Development Engineer "
+        dates = "January 2015 - December 2016 (2 years)"
+        company = "OPLEN"
+        details = "I worked on database design and PHP API development for Android App. This application has a usage behavior mainly offline, it was necessary to develop a synchronization system between the App's database and the Backend's database."
+
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    [params.information]
+        enable = true
+
+        [[params.information.list]]
+        title = "Interests"
+        details = "GO, Open source projects, microservices, queues, async services, olympic weightlifting"
+
+
+
+
+
+
+
+
+    [params.social]
+        enable = true
+
+        [[params.social.list]]
+        icon = "fab fa-github-square"
+        url = "//github.com/airtonGit"
+        title = "airtonGit"
+        [[params.social.list]]
+        icon = "fab fa-linkedin"
+        url = "//linkedin.com/in/airtonfsoliveira"
+        title = "airtonfsoliveira"
+        [[params.social.list]]
+        icon = "fab fa-twitter-square"
+        url = "//twitter.com/airtonlipe"
+        title = "@airtonlipe"
+
+
